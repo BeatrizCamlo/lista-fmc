@@ -2,7 +2,7 @@ package com.imd.lista_programacao_fmc;
 
 import java.util.Scanner;
 
-import com.imd.lista_programacao_fmc.questao_1.DivMod;
+import com.imd.lista_programacao_fmc.questao_1.PisoTeto;
 
 public class Main {
 
@@ -15,8 +15,8 @@ public class Main {
 		double dividendo = sc.nextDouble();
 		System.out.println("Digite o divisor: ");
 		double divisor = sc.nextDouble(); 
-		DivMod divmod = new DivMod(dividendo, divisor);
-		System.out.println(divmod);
+		PisoTeto pisoTeto = new PisoTeto(dividendo, divisor);
+		System.out.println(pisoTeto);
 		System.out.println("================================");
 	}
 
